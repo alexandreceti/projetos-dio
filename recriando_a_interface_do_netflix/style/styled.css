@@ -12,7 +12,7 @@
 body {
   background: var(--preto);
   color: #ffff;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Arial', Times, serif;
 }
 
 
@@ -46,7 +46,9 @@ header nav a:hover {
   font-size: 16px;
   background-image: linear-gradient(rgba(0,0,0,.50),rgba(0, 0, 0, 0.5)100%), url("../img/capa-house.jpg");
 
-  height: 400px;
+  /* height: 400px; */
+  /* width: 400px; */
+  /* margin-bottom: ; */
   background-size: cover;
 
   display: flex;
@@ -55,8 +57,10 @@ header nav a:hover {
   align-items: flex-start;
 }
 
-.filme-principal .container {
+
+.container {
   margin-left: 50px;
+  margin-right: 10px;
 }
 
 .filme-principal .descricao {
@@ -68,6 +72,10 @@ header nav a:hover {
   margin-top: 20%;
   font-size: 40px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.botoes {
+  margin-bottom: 50px;
 }
 
 .botao {
@@ -88,4 +96,14 @@ header nav a:hover {
 
 .botao i {
   margin-right: 8px;
+}
+
+.box-filme {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+.carrosel-filmes {
+  margin-top: 15px;
 }
